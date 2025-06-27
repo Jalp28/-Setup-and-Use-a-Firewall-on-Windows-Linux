@@ -56,7 +56,7 @@ Name: "Block Telnet Port 23" > Finish.
   ### Linux (UFW)
   sudo ufw delete deny 23/tcp
   
-  ### 7. How Firewalls Filter Traffic
+## 7. How Firewalls Filter Traffic
   **Firewalls control network traffic using rules based on**:
 
 - Rules-Based Filtering: Evaluate packets by source/destination IP, port, protocol (e.g., TCP/UDP), and action (allow/block).
