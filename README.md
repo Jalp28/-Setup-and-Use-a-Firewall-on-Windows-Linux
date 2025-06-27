@@ -21,7 +21,7 @@ This document outlines the steps to configure a firewall on Windows (using Windo
 
 ### Windows
 - **GUI**: In "Windows Defender Firewall with Advanced Security," view rules under "Inbound Rules" or "Outbound Rules."
-- 
+  
 ### Linux (UFW)
 -sudo ufw status
  ## 3. Add a Rule to Block Inbound Traffic on Port 23 (Telnet)
@@ -62,10 +62,10 @@ Name: "Block Telnet Port 23" > Finish.
   ### 7. How Firewalls Filter Traffic
   **Firewalls control network traffic using rules based on**:
 
-Rules-Based Filtering: Evaluate packets by source/destination IP, port, protocol (e.g., TCP/UDP), and action (allow/block).
-Direction: Apply to inbound or outbound traffic.
-Stateful Inspection: Track connection states to allow responses to initiated connections.
-Default Policies: Often deny all unless explicitly allowed.
-Port/Protocol Control: Allow or block services (e.g., Telnet on 23, SSH on 22).
-Application Layer (Advanced): Some firewalls inspect packet content, but UFW/Windows Defender focus on network-layer attributes.
-Firewalls act as gatekeepers, ensuring only authorized traffic passes, enhancing security.
+- Rules-Based Filtering: Evaluate packets by source/destination IP, port, protocol (e.g., TCP/UDP), and action (allow/block).
+- Direction: Apply to inbound or outbound traffic.
+- Stateful Inspection: Track connection states to allow responses to initiated connections.
+- Default Policies: Often deny all unless explicitly allowed.
+- Port/Protocol Control: Allow or block services (e.g., Telnet on 23, SSH on 22).
+- Application Layer (Advanced): Some firewalls inspect packet content, but UFW/Windows Defender focus on network-layer attributes.
+- Firewalls act as gatekeepers, ensuring only authorized traffic passes, enhancing security.
