@@ -3,7 +3,6 @@
 
 This document outlines the steps to configure a firewall on Windows (using Windows Defender Firewall) and Linux (using UFW), including listing rules, blocking a specific port (e.g., Telnet on port 23), testing, allowing SSH (Linux only), removing the test rule, and summarizing how firewalls filter traffic.
 
----
 
 ## 1. Open Firewall Configuration Tool
 
@@ -14,8 +13,6 @@ This document outlines the steps to configure a firewall on Windows (using Windo
 ### Linux (UFW)
 - Open a terminal and ensure UFW is installed: `sudo apt install ufw` (Debian/Ubuntu).
 - Access UFW: `sudo ufw status`.
-
----
 
 ## 2. List Current Firewall Rules
 
