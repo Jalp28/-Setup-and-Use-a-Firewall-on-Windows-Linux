@@ -21,8 +21,9 @@ This document outlines the steps to configure a firewall on Windows (using Windo
 
 ### Windows
 - **GUI**: In "Windows Defender Firewall with Advanced Security," view rules under "Inbound Rules" or "Outbound Rules."
-
-
+- 
+### Linux (UFW)
+-sudo ufw status
  ## 3. Add a Rule to Block Inbound Traffic on Port 23 (Telnet)
 
 ### Windows
